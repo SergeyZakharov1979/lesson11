@@ -141,7 +141,7 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 */
 
 
-/* @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap); */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap);
 
 /* @font-face {
     font-family: 'HelveticaNeueCyr';
@@ -154,15 +154,18 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 
 
 * {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
     box-sizing: border-box;
 }
 
 body {
   overflow-x: hidden;
+  background: #f5f5f5;
 }
 
 .wrapper {
-  /* padding: 50px; */
   min-height: 100%;
 }
 
@@ -176,4 +179,171 @@ body {
 
 
 /* ! --------------main-page------------------ */
+.main-page {
+  padding: 26px 0 312px 0;
+  background: url(../img/main-page/BG\ Image.webp) 0 0/cover no-repeat;
+}
 
+.main__main-page {}
+
+.container {
+  max-width: 1020px;
+}
+
+.container--margin {
+  margin: 0 auto;
+}
+
+.main-page__header {
+  width: 100%;
+  height: 128px;
+  margin: 0 0 126px 0;
+}
+
+.title {
+  margin: 0;
+
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+.title__main-page {
+  max-width: 583px;
+  margin: 0 0 48px 0;
+}
+
+.title--size-color {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 56px;
+
+  color: #FFFFFF;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  background: #F2726F;
+  border-radius: 5px;
+}
+
+
+/* ! --------------who-we-are------------------ */
+.who-we-are {
+  max-width: 1020px;
+  padding: 100px 0 0 0;
+  background: #5D62B5;
+  border-radius: 40px;
+}
+
+.main__who-we-are {
+  position: relative;
+  margin: 0 auto;
+  margin-top: -80px;
+}
+
+.main__who-we-are::before {
+  position: absolute;
+  top: -110px;
+  right: -80px;
+  content: "";
+  width: 201px;
+  height: 317px;
+  background: url(../img/who-we-are/Stylize\ Circles.svg) 0 0 no-repeat;
+}
+
+.who-we-are__container {
+  max-width: 846px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #F5F5F5;
+}
+
+.who-we-are__subtitle {
+  position: relative;
+  margin: 0 0 33px 0;
+}
+
+.who-we-are__subtitle::before {
+  top: 0;
+  left: 0;
+  content:"";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding: 0 0 0 16px;
+  vertical-align: top;
+
+  background: url(../img/who-we-are/Overline\ Mark.svg) 0 -2px no-repeat;
+}
+
+.who-we-are__title {
+  margin: 0 0 36px 0;
+}
+
+.title--color-white {
+  color: #ffffff;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+}
+
+.who-we-are__text {
+  margin: 0 0 54px 0;
+}
+
+.text--color-white {
+  color: #F5F5F5;
+}
+
+.image {
+  z-index: 3;
+}
+
+.who-we-are__image {
+  position: relative;
+}
+
+.image-item {
+  margin: 0 0 -120px 0;
+  
+}
+
+.image-item::before {
+  content:"";
+  position: absolute;
+  top: -425px;
+  left: -80px;
+  
+  width: 665px;
+  height: 591px;
+  
+  background: url(../img/who-we-are/Blob\ 2.png) 0 0 no-repeat;
+  z-index: -1;
+}
