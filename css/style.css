@@ -277,17 +277,16 @@ body {
   line-height: 24px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #F5F5F5;
+  color: #5D62B5;
 }
 
 .who-we-are__subtitle {
   position: relative;
   margin: 0 0 33px 0;
+  color: #F5F5F5;
 }
 
 .who-we-are__subtitle::before {
-  top: 0;
-  left: 0;
   content:"";
   display: inline-block;
   width: 18px;
@@ -346,4 +345,121 @@ body {
   
   background: url(../img/who-we-are/Blob\ 2.png) 0 0 no-repeat;
   z-index: -1;
+}
+
+
+/* ! --------------promise------------------ */
+.promise {
+  padding: 232px 0px 95px 0px;
+}
+
+.promise__main {}
+
+.container {}
+
+.container--margin {}
+
+.subtitle {}
+
+.promise__subtitle {
+  margin: 0px 0px 33px 0px;
+}
+
+.promise__subtitle::before {
+  content:"";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding: 0 0 0 16px;
+  vertical-align: top;
+  
+  background: url(../img/promise/Overline\ Mark.svg) 0 -2px no-repeat;
+}
+
+.title {}
+
+.promise__title {
+  margin: 0px 0px 68px 0px;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+}
+
+.row__item:not(:nth-child(3n+3)) {
+  margin: 0px 27px 0px 0px;
+}
+
+.row__item {
+  display: inline-block;
+  max-width: 33%;
+  margin-bottom: 27px;
+  font-size: 0;
+}
+
+
+.row__icon {
+  display: inline-block;
+  margin: 0px 23px 0px 0px;
+  vertical-align: top;
+}
+
+.row__body {
+  display: inline-block;
+  max-width: 235px;
+}
+
+.row__title {
+  margin: 0px 0px 20px 0px;
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 26px;
+  color: #F2726F;
+}
+
+.text {
+  margin: 0 auto;
+}
+
+
+/* ! --------------nemo------------------ */
+.nemo {
+  padding: 112px 0px 169px 0px;
+  background: url(../img/nemo/tennis-ball.webp) 1250px 120px no-repeat, url(../img/nemo/Line\ 1.png) 750px 0 no-repeat, url(../img/nemo/pup.png) 0 40px no-repeat, url(../img/nemo/Blob\ 3.png) 0 0 no-repeat, url(../img/nemo/Stylize\ Circles.png) 0 120px no-repeat, url(../img/nemo/bg.jpg) 0 0;
+}
+
+.main__nemo {
+  
+}
+
+.container {}
+
+.nemo__container {
+  
+}
+
+
+.container--margin {}
+
+.title {}
+
+.nemo__title {
+  max-width: 411px;
+}
+
+.title--right-wite {
+  margin: 0px 0px 42px auto;
+  color: #ffffff;
+}
+
+.btn {}
+
+.nemo___btn {
+  display: block;
+  max-width: 210px;
+  text-overflow: hidden;
+  margin: 0px 200px 0px auto;
 }
