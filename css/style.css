@@ -161,7 +161,7 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 }
 
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   background: #f5f5f5;
 }
 
@@ -631,3 +631,131 @@ body {
   color: #F2726F;
   vertical-align: top;
 }
+
+
+/* ! -------------impact------------ */
+.impact {
+  padding: 109px 0px 134px 0px;
+  background: #29C3BE;
+}
+
+.impact__row-top {
+ font-size: 0;
+}
+
+.impact__head {
+  display: inline-block;
+  max-width: 411px;
+  margin: 0px 111px 0px 0px;
+  vertical-align: top;
+}
+
+.impact__subtitle {
+  margin: 0px 0px 33px 0px;
+}
+
+.subtitle--wite-text {
+  color: #ffffff;
+}
+
+.impact__subtitle::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding: 0 0 0 16px;
+  vertical-align: top;
+
+  background: url(../img//impact/Overline\ Mark.svg) 0 -2px no-repeat;
+}
+
+.impact__title {
+  margin: 0px 0px 78px 0px;
+}
+
+.impact__image {
+  display: inline-block;
+}
+
+.impact__img-pic {
+  margin: -190px 0px 0px 0px;
+  display: block;
+  border-radius: 50px;
+}
+
+.impact__row-bottom {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.impact__item {
+  display: inline-block;
+  width: 23.2%;
+  margin-bottom: 24px;
+}
+
+.impact__item:not(:nth-child(4n+4)) {
+  margin: 0px 24px 0px 0px;
+}
+
+.impact__icon {
+  display: inline-block;
+  margin: 0px 11px 0px 0px;
+  vertical-align: top;
+}
+
+.impact__body {
+  display: inline-block;
+  max-width: 150px;
+  vertical-align: top;
+}
+
+.impact__titles {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+.text {}
+
+.impact__text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #5D62B5;
+}
+
+.impact__ads {
+  display: flex;
+  justify-content: space-between;
+  padding: 44px 73px;
+  background: #5D62B5;
+  border-radius: 20px;
+  font-size: 0;
+}
+
+.text {}
+
+.impact__text {}
+
+.text--weigt-size {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.impact__column {
+  display: inline-block;
+  line-height: 60px;
+  vertical-align: top;
+}
+
+.impact__column {
+  max-width: 562px;
+}
+
